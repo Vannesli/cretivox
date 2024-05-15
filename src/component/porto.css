@@ -68,3 +68,7 @@ svg{
     text-decoration: none;
     margin-bottom:50px;
 }
+.mid>a:hover{
+    color: yellow;
+    opacity: 80%;
+}

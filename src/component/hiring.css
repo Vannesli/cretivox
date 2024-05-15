@@ -9,6 +9,9 @@
     background-color: #000;
     color: white;
 }
+.hiring-banner > h1{
+    padding-bottom: 100px;
+}
 .banner{
     width: 30%;
     object-fit: cover;

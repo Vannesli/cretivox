@@ -75,13 +75,22 @@
 }
 .about-left> img{
     width: 80%;
+    border-radius: 10px;
 }
 .paragraph{
     display: flex;
     flex-direction: column;
-    width: 1300px;
+    width: 1200px;
     gap:50px;
     font-family: "Figtree", sans-serif;
+
+    opacity: 0; 
+    transition: opacity 3s ease, transform 3s ease; 
+    transform: translateX(0%);
+}
+.paragraph.is-visible {
+    opacity: 1; 
+    transform: translateX(0); 
 }
 .quotes{
     display: flex;
@@ -133,9 +142,20 @@ nav a{
     text-decoration: none;
     color:#fff;
     font-weight:500;
+    font-family: "Figtree", sans-serif;
+    font-weight: bold;
+    opacity: 70%;
+}
+nav a:hover{
+    opacity: 1;
 }
 .logo a{
     font-size:28px;
+    font-family: "Figtree", sans-serif;
+    opacity: 70%;
+}
+.logo a:hover{
+    opacity: 1;
 }
 .lottie-container{
     width: 100%;
@@ -262,7 +282,7 @@ nav a{
     overflow: hidden; 
     white-space: nowrap; 
     width: 0; 
-    animation: typing 5s steps(40) forwards; 
+    animation: typing 4s steps(40) forwards; 
 }
 .text{
     font-size: 2em;
