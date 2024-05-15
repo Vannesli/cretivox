@@ -5,16 +5,55 @@
 .left{
     display: flex;
     justify-content: start;
+    opacity: 0; 
+    transition: opacity 1.5s ease, transform 1.5s ease; 
+    transform: translateX(-100%);
+}
+.left.is-visible {
+    opacity: 1; 
+    transform: translateX(0); 
+}
+.left>h1:hover{
+    color:yellow;
+    opacity: 60%;
+}
+svg{
+    width: 200px;
 }
 .right{
     display: flex;
     justify-content: end;
+    opacity: 0; 
+    transition: opacity 1.5s ease, transform 1.5s ease; 
+    transform: translateX(100%);
+}
+.right.is-visible {
+    opacity: 1; 
+    transform: translateX(0); 
+}
+.right>h1:hover{
+    color:yellow;
+    opacity: 60%;
 }
 .mid{
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
+    text-align: center;
+
+    opacity: 0; 
+    transition: opacity 3s ease, transform 3s ease; 
+    transform: translateX(0);
+}
+.mid.is-visible {
+    opacity: 1; 
+    transform: translateX(0); 
+
+}
+.mid>h1:hover{
+    color:yellow;
+    opacity: 60%;
 }
 .left> h1, .right> h1, .mid> h1{
     font-family: "Figtree", sans-serif;
