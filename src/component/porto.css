@@ -72,3 +72,12 @@ svg{
     color: yellow;
     opacity: 80%;
 }
+
+@media (max-width: 768px) {
+    .left >h1, .right>h1, .mid>h1{
+        font-size: 5em;
+    }
+    svg{
+        width: 50px;
+    }
+}

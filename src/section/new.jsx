@@ -99,7 +99,7 @@ function New() {
             </section>
 
             <section className="gradient">
-                <div className="moving-text" ref={movingTextRef}>Endurance Test With Cretivox Endurance Test With Cretivox Endurance Test With Cretivox Endurance Test With Cretivox Endurance Test With Cretivox Endurance Test With Cretivox Endurance Test With Cretivox</div>
+                <div className="moving-text" ref={movingTextRef}>Endurance Test With Cretivox Endurance Test With Cretivox Endurance Test With Cretivox Endurance Test With Cretivox Endurance Test With Cretivox Endurance Test With Cretivox Endurance Test With Cretivox Cretivox Endurance Test With Cretivox Endurance Test With Cretivox Cretivox Endurance Test With Cretivox Endurance Test With Cretivox Cretivox Endurance Test With Cretivox Endurance Test With Cretivox Cretivox Endurance Test With Cretivox Endurance Test With Cretivox Cretivox Endurance Test With Cretivox Endurance Test With Cretivox</div>
             </section>
 
             <section className="website-content">

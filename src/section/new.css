@@ -299,3 +299,54 @@ nav a:hover{
         width: 100%; 
     }
 }
+
+
+@media (max-width: 768px) {
+    .overlay {
+        top:20%
+    }
+    .text{
+        font-size: 1em;
+        font-weight: bolder;
+    }
+    .moving-text{
+        top:50%;
+        font-size: 5em;
+    }
+    .gradient{
+        height: 50vh;
+    }
+    .row-about{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .about-left{
+        width: 50%;
+    }
+    .about-left > img{
+        width: 100%;
+    }
+    .about-right{
+        margin-left:50px;
+        margin-top: 20px;
+        width: 100%;
+        
+    }
+    .about-right>p{
+        font-size: 1em;
+        margin-left:20px;
+    }
+    .paragraph{
+        width: 100%;
+    }
+    .paragraph> p{
+        font-size: 1em;
+        width: 90%;
+    }
+    .quotes > p{
+        font-size:1em;
+        text-align: center;
+    }
+}
