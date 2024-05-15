@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Bebas+Neue&family=Contrail+One&family=Figtree:ital,wght@0,300..900;1,300..900&family=Jockey+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=News+Cycle:wght@400;700&family=Oswald:wght@200..700&family=Pathway+Gothic+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Six+Caps&family=Teko:wght@300..700&display=swap');
+
+.container-hero {
+    width: 100%;
+    position: relative;
+    bottom:0;
+    height: auto;
+}
+
+.hero {
+    width: 100%;
+    object-fit: cover;
+    bottom:0;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 1;
+    text-transform: uppercase;
+    font-family: "Figtree", sans-serif;
+    font-size: 2em;
+    font-weight: bolder;
+    font-style: italic;
+}
+.text-overlay>h1{
+    display:flex;
+    flex:1;
+}
+.text-overlay>h1::selection{
+    background-color: white;
+}
+
+.text-overlay > p{
+    font-size: 15px;
+    margin-bottom:20px;
+}
+.text-overlay > p:hover{
+    color:black;
+}
+.text-overlay > p::selection{
+    background-color: black;
+}
+.button {
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+    transition: color 0.4s;
+}
+
+.button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%; 
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    transition: left 0.4s; 
+}
+
+.button:hover::before {
+    left: 100%; 
+}
+
+.button:hover {
+    color: black; 
+}
+
+
